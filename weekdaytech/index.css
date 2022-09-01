@@ -1,0 +1,157 @@
+
+p{
+    color: chocolate;
+}
+h1 {
+    font-family: fantasy;
+    background-color: aquamarine;
+    border: darkblue dashed;
+    
+  }
+.first_div{
+    text-align: center;
+    width: 20%;
+    margin-left: 50%;
+    padding: 10px;
+  }
+
+.firstheader{
+    margin-left: 200px;
+  }
+.paragraph{
+    color: purple;
+}
+
+#thanks{
+    font-size: 20px;
+   
+} 
+table{
+    border: 2px solid rgb(237, 74, 45);
+    
+}
+.anothertable{
+    background-color: rgb(206, 152, 132);
+}
+.tabular{
+    border-radius: 18px;
+}
+/* OR */
+/* .anothertable.tabular{
+    border-radius: 18px;
+} */
+
+.first_inp{
+    background-color: rgb(107, 228, 107);
+    width: 15%;
+    height: 32px;
+    border-radius: 11px;
+    border: none;
+    box-shadow: 2px 4px 5px grey ; 
+    /* left down blur */
+}
+.para{
+    background-color: rgb(13, 13, 58);
+    display: inline; 
+     
+}
+
+.mother{
+    background-color: tomato;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.child_1{
+    background-color: turquoise;
+    width: 40%;
+}
+.child_2{
+    background-color: aqua;
+    width: 40%;
+}
+.newdiv{
+    width: 60%;
+    background-color: rgb(148, 103, 189);
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr; */
+    /* OR */
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-rows: repeat(3, 1fr);
+}
+.div1{
+    width: 20%;
+    background-color: brown;
+}
+.div2{
+    width: 20%;
+    background-color: rgb(176, 91, 91);
+}
+.div3{
+    width: 20%;
+    background-color: rgb(42, 81, 165);
+}
+.div4{
+    width: 20%;
+     color: thistle;
+    background-color: rgb(24, 22, 22);
+}
+.div5{
+    width: 20%;
+    background-color: salmon;
+}
+.div6{
+    width: 20%;
+    background-color: rgb(165, 42, 157);
+}
+.div7{
+    width: 20%;
+    background-color: rgb(245, 207, 136);
+}
+
+.div8{
+    width: 20%;
+    background-color: maroon;
+}
+.div9{
+    width: 20%;
+    background-color: teal;
+}
+.div10{
+    width: 20%;
+    background-color: rgb(109, 63, 92);
+}
+.div11{
+    width: 20%;
+    background-color: navy;
+}
+.div12{
+    width: 20%;
+    background-color: red;
+}
+.first{
+    border: 3px solid;
+    padding: 4px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    
+}
+.child{
+    background-color: cyan;
+    border: 2px dashed;
+}
+
+.pos_div{
+    background-color: wheat;
+    width: 200px;
+    height: 60px;
+    position: relative;
+    bottom: 50px;
+    left: 280px;    
+
+}
+/* .first{
+    position: relative;
+} */

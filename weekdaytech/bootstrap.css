@@ -1,0 +1,19 @@
+.firstdiv{
+    background-image: url(./images/image-gallery-cone.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.seconddiv{
+    background-image: url(./images/image-header.jpg);
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+}
+.experiment1{
+    background-color: skyblue;
+}
+.experiment2{
+    background-color: rgb(217, 135, 235);
+}
